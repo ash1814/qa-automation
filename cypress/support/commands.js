@@ -55,19 +55,4 @@ Cypress.Commands.add('LoginNetworkRequest', (method, url, data = null, headers =
            cy.log(JSON.stringify(response.body))
 
   })
-});
-
-
-	  
-    it('GET Property ID from Commands', () => {
-     
-    cy.fixture("property_id").then(property_id => {
-      const property_id = property_id.queryParams
-     
-     
-       
-      
-    })     
-});
-	
-  
+})
